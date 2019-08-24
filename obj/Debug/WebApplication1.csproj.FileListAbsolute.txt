@@ -1,0 +1,18 @@
+D:\24oct\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+D:\24oct\WebApplication1\WebApplication1\bin\WebApplication1.dll
+D:\24oct\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+D:\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+D:\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+D:\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\Local Disk\visual Studio Project\24oct\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+E:\Local Disk\visual Studio Project\24oct\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\Local Disk\visual Studio Project\24oct\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\Local Disk\visual Studio Project\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\Local Disk\visual Studio Project\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\Local Disk\visual Studio Project\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb
+E:\Local Disk\24oct\WebApplication1\WebApplication1\bin\WebApplication1.dll.config
+E:\Local Disk\24oct\WebApplication1\WebApplication1\bin\WebApplication1.dll
+E:\Local Disk\24oct\WebApplication1\WebApplication1\bin\WebApplication1.pdb
+E:\Local Disk\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.csprojResolveAssemblyReference.cache
+E:\Local Disk\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.dll
+E:\Local Disk\24oct\WebApplication1\WebApplication1\obj\Debug\WebApplication1.pdb

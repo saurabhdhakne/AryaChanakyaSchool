@@ -1,0 +1,137 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterPage.master.cs" Inherits="WebApplication1.masterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+
+      
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  
+
+    <style>   
+        
+           .auto-style1 {
+            width: 100%;
+        }
+        .auto-style2 {
+            width: 98px;
+        }
+
+        .mynav{
+            color:black;
+            background:lavender;
+        }
+        .mynav h2{
+            padding:7px;
+            z-index:9;
+            cursor:pointer;
+        }
+        
+        .mynav h2:hover{
+           color:red;
+
+        }
+        
+        .carousel{
+        }
+        .sname{
+                 color:snow;
+                font-family:Elephant;
+                background:snow;
+                font-size:3em;
+                margin-top:4px;
+                color:black;
+                border-radius:20px;
+                z-index:9;
+                }
+
+        a{
+            text-decoration:none;
+        }
+
+        a:hover{
+            color:black;
+            
+        }
+
+        
+        
+        .contacts img{
+            box-shadow:0 15px 15px 0px;
+            margin-bottom:20px;
+        }
+
+</style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+
+
+             <table class="auto-style1   mynav">
+            <tr>
+                <td class="auto-style2 ">
+                    <h2 class="text-center"><a href="Default.aspx">
+                        <asp:Label ID="Label1" runat="server" Text="HOME" CssClass="float-xl-none" BorderColor="Black"></asp:Label>
+                        </a></h2>
+                </td>
+                <td>
+                    <h2 class="text-center"><a href="documents.aspx">
+                    <asp:Label ID="Label6" runat="server" Text="Documents"></asp:Label>
+                    </a></h2>
+                </td>
+                <td>
+                    <h2 class="text-center"><a href="contact.aspx">
+                    <asp:Label ID="Label2" runat="server" Text="Contact"></asp:Label>
+                    </a></h2>
+                </td>
+                <td>
+                    <h2 class="text-center sname"  ><a href="Default.aspx">
+                    <asp:Label ID="Label7" runat="server" Text="Arya Chanakya Vidya Mandir"></asp:Label>
+                    </a></h2>
+                </td>
+                
+                <td>
+                    <h2 class="text-center"><a href="about.aspx">
+                    <asp:Label ID="Label3" runat="server" Text="About"></asp:Label>
+                    </a></h2>
+                </td>
+                <td>
+                    <h2 class="text-center"><a href="registration.aspx">
+                    <asp:Label ID="Label4" runat="server" Text="Register"></asp:Label>
+                    </a></h2>
+                </td>
+                <td>
+                    <h2 class="text-center"><a href="login.aspx">
+                    <asp:Label ID="Label5" runat="server" Text="Login"></asp:Label>
+                    </a></h2>
+                </td>
+                <td>
+                
+                </td>
+                
+                
+            </tr>
+        </table>
+   
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
